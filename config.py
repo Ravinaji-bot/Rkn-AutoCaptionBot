@@ -29,7 +29,7 @@ class Rkn_Botz(object):
     BOT_UPTIME = time.time()
 
     # Server port (default 8080)
-    PORT = int(os.environ.get("PORT", "8080"))
+    PORT = int(os.environ.get("PORT", "8080")
 
     # Force subscribe channel username (without @) (only public chats username required)
     FORCE_SUB = os.environ.get("FORCE_SUB", "Rkn_Botz")
@@ -66,4 +66,5 @@ class Rkn_Botz(object):
 
 
 # ⚠️ Please do not remove this credit!
+
 
