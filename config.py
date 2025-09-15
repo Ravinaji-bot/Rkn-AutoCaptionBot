@@ -18,8 +18,8 @@ import time
 
 class Rkn_Botz(object):
     # Rkn client config (required)
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "24358501")
+    API_HASH = os.environ.get("API_HASH", "fa51ce8876c215d8a76c98c755e6d2d3")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # Start pic (default image link)
@@ -63,5 +63,6 @@ class Rkn_Botz(object):
 # Updates Channel: @Rkn_Bots_Updates & @Rkn_Botz
 # Special Thanks To: @ReshamOwner
 # Update Channels: @Digital_Botz & @DigitalBotz_Support
+
 
 # ⚠️ Please do not remove this credit!
